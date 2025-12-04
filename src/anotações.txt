@@ -1,0 +1,3 @@
+no load criar uma conexão 
+
+na hr que eu subir o docker compose eu subo o click house ele funcionara local como um serviço dentro do compose 

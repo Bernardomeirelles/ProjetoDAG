@@ -1,8 +1,11 @@
-def extracao_dados():
-    with open('src\customers-10000.csv', 'r', encoding='utf-8') as arquivo:
-        dados = arquivo.readlines()
-        print(dados)
-    return dados
+import pandas as pd
 
-extracao_dados()
+def extrair_dados():
+    """
+    Lê o arquivo CSV local e retorna um DataFrame do pandas.
+    """
+    df = pd.read_csv("src/customers-10000.csv", encoding="utf-8")
+    return df
 
+df = extrair_dados()
+print(df.head())
