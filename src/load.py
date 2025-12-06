@@ -51,6 +51,13 @@ def load_to_clickhouse(df: pd.DataFrame, table_name: str = "customers"):
     - Insere os dados.
     - Faz um teste simples (COUNT) para validar.
     """
+
+    # ✅ Sad path explícito: DataFrame vazio
+    if df is None or df.empty:
+        raise ValueError(
+            "DataFrame vazio, nada para carregar. Verifique sua etapa de transformação."
+        )
+
     client = get_clickhouse_client()
     criar_tabela_se_nao_existir(client, table_name=table_name)
 
@@ -76,7 +83,9 @@ def load_to_clickhouse(df: pd.DataFrame, table_name: str = "customers"):
 
     # Converte subscription_date para datetime, se necessário
     if not pd.api.types.is_datetime64_any_dtype(df["subscription_date"]):
-        df["subscription_date"] = pd.to_datetime(df["subscription_date"], errors="coerce")
+        df["subscription_date"] = pd.to_datetime(
+            df["subscription_date"], errors="coerce"
+        )
 
     rows = df[expected_cols].to_numpy().tolist()
 

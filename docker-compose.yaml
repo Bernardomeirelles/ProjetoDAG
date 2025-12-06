@@ -15,6 +15,8 @@ x-airflow-common: &airflow-common
     - ./plugins:/opt/airflow/plugins
     - ./src:/opt/airflow/src
     - ./data:/opt/airflow/data
+    - ./tests:/opt/airflow/tests                    # 👈 monta a pasta de testes
+    - ./requirements.txt:/opt/airflow/requirements.txt  # 👈 monta o requirements
   depends_on:
     postgres:
       condition: service_healthy
