@@ -205,3 +205,346 @@
 [2025-12-06T00:15:06.773+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:15:06.771+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-12-06T00:15:06.791+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:15:06.791+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_customers_clickhouse to None, run_after=None
 [2025-12-06T00:15:06.818+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_clickhouse_dag.py took 0.860 seconds
+[2025-12-06T00:15:37.245+0000] {processor.py:186} INFO - Started process (PID=319) to work on /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:15:37.247+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_clickhouse_dag.py for tasks to queue
+[2025-12-06T00:15:37.251+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:15:37.251+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:15:37.905+0000] {processor.py:925} INFO - DAG(s) 'etl_customers_clickhouse' retrieved from /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:15:37.944+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:15:37.943+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-06T00:15:37.964+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:15:37.963+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_customers_clickhouse to None, run_after=None
+[2025-12-06T00:15:37.988+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_clickhouse_dag.py took 0.751 seconds
+[2025-12-06T00:16:08.328+0000] {processor.py:186} INFO - Started process (PID=325) to work on /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:16:08.330+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_clickhouse_dag.py for tasks to queue
+[2025-12-06T00:16:08.334+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:16:08.333+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:16:08.945+0000] {processor.py:925} INFO - DAG(s) 'etl_customers_clickhouse' retrieved from /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:16:08.971+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:16:08.970+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-06T00:16:08.986+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:16:08.985+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_customers_clickhouse to None, run_after=None
+[2025-12-06T00:16:09.019+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_clickhouse_dag.py took 0.700 seconds
+[2025-12-06T00:16:39.537+0000] {processor.py:186} INFO - Started process (PID=331) to work on /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:16:39.539+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_clickhouse_dag.py for tasks to queue
+[2025-12-06T00:16:39.542+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:16:39.542+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:16:40.195+0000] {processor.py:925} INFO - DAG(s) 'etl_customers_clickhouse' retrieved from /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:16:40.224+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:16:40.223+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-06T00:16:40.238+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:16:40.237+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_customers_clickhouse to None, run_after=None
+[2025-12-06T00:16:40.258+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_clickhouse_dag.py took 0.729 seconds
+[2025-12-06T00:17:10.777+0000] {processor.py:186} INFO - Started process (PID=337) to work on /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:17:10.779+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_clickhouse_dag.py for tasks to queue
+[2025-12-06T00:17:10.782+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:17:10.782+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:17:11.434+0000] {processor.py:925} INFO - DAG(s) 'etl_customers_clickhouse' retrieved from /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:17:11.460+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:17:11.459+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-06T00:17:11.476+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:17:11.476+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_customers_clickhouse to None, run_after=None
+[2025-12-06T00:17:11.508+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_clickhouse_dag.py took 0.739 seconds
+[2025-12-06T00:17:41.776+0000] {processor.py:186} INFO - Started process (PID=343) to work on /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:17:41.777+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_clickhouse_dag.py for tasks to queue
+[2025-12-06T00:17:41.781+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:17:41.781+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:17:42.429+0000] {processor.py:925} INFO - DAG(s) 'etl_customers_clickhouse' retrieved from /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:17:42.459+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:17:42.458+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-06T00:17:42.482+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:17:42.482+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_customers_clickhouse to None, run_after=None
+[2025-12-06T00:17:42.510+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_clickhouse_dag.py took 0.743 seconds
+[2025-12-06T00:18:12.999+0000] {processor.py:186} INFO - Started process (PID=349) to work on /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:18:13.002+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_clickhouse_dag.py for tasks to queue
+[2025-12-06T00:18:13.006+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:18:13.005+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:18:13.681+0000] {processor.py:925} INFO - DAG(s) 'etl_customers_clickhouse' retrieved from /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:18:13.712+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:18:13.711+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-06T00:18:13.729+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:18:13.728+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_customers_clickhouse to None, run_after=None
+[2025-12-06T00:18:13.764+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_clickhouse_dag.py took 0.776 seconds
+[2025-12-06T00:18:44.130+0000] {processor.py:186} INFO - Started process (PID=355) to work on /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:18:44.132+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_clickhouse_dag.py for tasks to queue
+[2025-12-06T00:18:44.136+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:18:44.136+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:18:44.987+0000] {processor.py:925} INFO - DAG(s) 'etl_customers_clickhouse' retrieved from /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:18:45.024+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:18:45.023+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-06T00:18:45.067+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:18:45.066+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_customers_clickhouse to None, run_after=None
+[2025-12-06T00:18:45.095+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_clickhouse_dag.py took 0.975 seconds
+[2025-12-06T00:19:15.445+0000] {processor.py:186} INFO - Started process (PID=361) to work on /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:19:15.447+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_clickhouse_dag.py for tasks to queue
+[2025-12-06T00:19:15.450+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:19:15.450+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:19:16.111+0000] {processor.py:925} INFO - DAG(s) 'etl_customers_clickhouse' retrieved from /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:19:16.138+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:19:16.138+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-06T00:19:16.162+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:19:16.161+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_customers_clickhouse to None, run_after=None
+[2025-12-06T00:19:16.188+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_clickhouse_dag.py took 0.753 seconds
+[2025-12-06T00:19:46.701+0000] {processor.py:186} INFO - Started process (PID=367) to work on /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:19:46.703+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_clickhouse_dag.py for tasks to queue
+[2025-12-06T00:19:46.707+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:19:46.707+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:19:47.328+0000] {processor.py:925} INFO - DAG(s) 'etl_customers_clickhouse' retrieved from /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:19:47.356+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:19:47.355+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-06T00:19:47.371+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:19:47.370+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_customers_clickhouse to None, run_after=None
+[2025-12-06T00:19:47.405+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_clickhouse_dag.py took 0.712 seconds
+[2025-12-06T00:20:17.856+0000] {processor.py:186} INFO - Started process (PID=373) to work on /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:20:17.858+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_clickhouse_dag.py for tasks to queue
+[2025-12-06T00:20:17.862+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:20:17.862+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:20:18.544+0000] {processor.py:925} INFO - DAG(s) 'etl_customers_clickhouse' retrieved from /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:20:18.573+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:20:18.573+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-06T00:20:18.594+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:20:18.594+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_customers_clickhouse to None, run_after=None
+[2025-12-06T00:20:18.618+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_clickhouse_dag.py took 0.771 seconds
+[2025-12-06T00:20:49.176+0000] {processor.py:186} INFO - Started process (PID=379) to work on /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:20:49.178+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_clickhouse_dag.py for tasks to queue
+[2025-12-06T00:20:49.181+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:20:49.181+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:20:49.889+0000] {processor.py:925} INFO - DAG(s) 'etl_customers_clickhouse' retrieved from /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:20:49.922+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:20:49.922+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-06T00:20:49.943+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:20:49.943+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_customers_clickhouse to None, run_after=None
+[2025-12-06T00:20:49.969+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_clickhouse_dag.py took 0.801 seconds
+[2025-12-06T00:21:20.498+0000] {processor.py:186} INFO - Started process (PID=385) to work on /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:21:20.500+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_clickhouse_dag.py for tasks to queue
+[2025-12-06T00:21:20.504+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:21:20.503+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:21:21.212+0000] {processor.py:925} INFO - DAG(s) 'etl_customers_clickhouse' retrieved from /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:21:21.237+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:21:21.236+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-06T00:21:21.251+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:21:21.251+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_customers_clickhouse to None, run_after=None
+[2025-12-06T00:21:21.276+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_clickhouse_dag.py took 0.786 seconds
+[2025-12-06T00:21:51.755+0000] {processor.py:186} INFO - Started process (PID=391) to work on /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:21:51.757+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_clickhouse_dag.py for tasks to queue
+[2025-12-06T00:21:51.761+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:21:51.761+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:21:52.441+0000] {processor.py:925} INFO - DAG(s) 'etl_customers_clickhouse' retrieved from /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:21:52.471+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:21:52.470+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-06T00:21:52.486+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:21:52.486+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_customers_clickhouse to None, run_after=None
+[2025-12-06T00:21:52.518+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_clickhouse_dag.py took 0.772 seconds
+[2025-12-06T00:22:22.611+0000] {processor.py:186} INFO - Started process (PID=397) to work on /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:22:22.613+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_clickhouse_dag.py for tasks to queue
+[2025-12-06T00:22:22.616+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:22:22.616+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:22:23.270+0000] {processor.py:925} INFO - DAG(s) 'etl_customers_clickhouse' retrieved from /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:22:23.315+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:22:23.314+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-06T00:22:23.346+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:22:23.345+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_customers_clickhouse to None, run_after=None
+[2025-12-06T00:22:23.374+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_clickhouse_dag.py took 0.771 seconds
+[2025-12-06T00:22:53.825+0000] {processor.py:186} INFO - Started process (PID=403) to work on /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:22:53.827+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_clickhouse_dag.py for tasks to queue
+[2025-12-06T00:22:53.830+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:22:53.830+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:22:54.450+0000] {processor.py:925} INFO - DAG(s) 'etl_customers_clickhouse' retrieved from /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:22:54.477+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:22:54.477+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-06T00:22:54.505+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:22:54.505+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_customers_clickhouse to None, run_after=None
+[2025-12-06T00:22:54.537+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_clickhouse_dag.py took 0.720 seconds
+[2025-12-06T00:23:25.024+0000] {processor.py:186} INFO - Started process (PID=409) to work on /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:23:25.027+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_clickhouse_dag.py for tasks to queue
+[2025-12-06T00:23:25.031+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:23:25.031+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:23:25.704+0000] {processor.py:925} INFO - DAG(s) 'etl_customers_clickhouse' retrieved from /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:23:25.731+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:23:25.730+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-06T00:23:25.745+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:23:25.745+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_customers_clickhouse to None, run_after=None
+[2025-12-06T00:23:25.767+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_clickhouse_dag.py took 0.754 seconds
+[2025-12-06T00:23:56.273+0000] {processor.py:186} INFO - Started process (PID=415) to work on /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:23:56.275+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_clickhouse_dag.py for tasks to queue
+[2025-12-06T00:23:56.279+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:23:56.279+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:23:57.062+0000] {processor.py:925} INFO - DAG(s) 'etl_customers_clickhouse' retrieved from /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:23:57.095+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:23:57.094+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-06T00:23:57.112+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:23:57.111+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_customers_clickhouse to None, run_after=None
+[2025-12-06T00:23:57.140+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_clickhouse_dag.py took 0.877 seconds
+[2025-12-06T00:24:27.598+0000] {processor.py:186} INFO - Started process (PID=421) to work on /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:24:27.600+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_clickhouse_dag.py for tasks to queue
+[2025-12-06T00:24:27.604+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:24:27.603+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:24:28.421+0000] {processor.py:925} INFO - DAG(s) 'etl_customers_clickhouse' retrieved from /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:24:28.454+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:24:28.453+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-06T00:24:28.472+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:24:28.472+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_customers_clickhouse to None, run_after=None
+[2025-12-06T00:24:28.499+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_clickhouse_dag.py took 0.921 seconds
+[2025-12-06T00:24:58.982+0000] {processor.py:186} INFO - Started process (PID=427) to work on /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:24:58.985+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_clickhouse_dag.py for tasks to queue
+[2025-12-06T00:24:58.991+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:24:58.990+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:24:59.710+0000] {processor.py:925} INFO - DAG(s) 'etl_customers_clickhouse' retrieved from /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:24:59.743+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:24:59.742+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-06T00:24:59.760+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:24:59.759+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_customers_clickhouse to None, run_after=None
+[2025-12-06T00:24:59.797+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_clickhouse_dag.py took 0.822 seconds
+[2025-12-06T00:25:30.256+0000] {processor.py:186} INFO - Started process (PID=433) to work on /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:25:30.259+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_clickhouse_dag.py for tasks to queue
+[2025-12-06T00:25:30.264+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:25:30.264+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:25:30.792+0000] {processor.py:925} INFO - DAG(s) 'etl_customers_clickhouse' retrieved from /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:25:30.814+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:25:30.813+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-06T00:25:30.826+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:25:30.826+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_customers_clickhouse to None, run_after=None
+[2025-12-06T00:25:30.860+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_clickhouse_dag.py took 0.612 seconds
+[2025-12-06T00:26:01.309+0000] {processor.py:186} INFO - Started process (PID=439) to work on /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:26:01.312+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_clickhouse_dag.py for tasks to queue
+[2025-12-06T00:26:01.316+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:26:01.315+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:26:01.996+0000] {processor.py:925} INFO - DAG(s) 'etl_customers_clickhouse' retrieved from /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:26:02.023+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:26:02.022+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-06T00:26:02.039+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:26:02.038+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_customers_clickhouse to None, run_after=None
+[2025-12-06T00:26:02.061+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_clickhouse_dag.py took 0.761 seconds
+[2025-12-06T00:26:32.250+0000] {processor.py:186} INFO - Started process (PID=445) to work on /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:26:32.252+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_clickhouse_dag.py for tasks to queue
+[2025-12-06T00:26:32.256+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:26:32.255+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:26:32.940+0000] {processor.py:925} INFO - DAG(s) 'etl_customers_clickhouse' retrieved from /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:26:32.978+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:26:32.977+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-06T00:26:32.996+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:26:32.995+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_customers_clickhouse to None, run_after=None
+[2025-12-06T00:26:33.028+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_clickhouse_dag.py took 0.787 seconds
+[2025-12-06T00:27:03.462+0000] {processor.py:186} INFO - Started process (PID=451) to work on /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:27:03.463+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_clickhouse_dag.py for tasks to queue
+[2025-12-06T00:27:03.467+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:27:03.467+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:27:04.146+0000] {processor.py:925} INFO - DAG(s) 'etl_customers_clickhouse' retrieved from /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:27:04.175+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:27:04.174+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-06T00:27:04.191+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:27:04.190+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_customers_clickhouse to None, run_after=None
+[2025-12-06T00:27:04.223+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_clickhouse_dag.py took 0.770 seconds
+[2025-12-06T00:27:34.623+0000] {processor.py:186} INFO - Started process (PID=457) to work on /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:27:34.625+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_clickhouse_dag.py for tasks to queue
+[2025-12-06T00:27:34.628+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:27:34.628+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:27:35.345+0000] {processor.py:925} INFO - DAG(s) 'etl_customers_clickhouse' retrieved from /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:27:35.378+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:27:35.377+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-06T00:27:35.396+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:27:35.396+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_customers_clickhouse to None, run_after=None
+[2025-12-06T00:27:35.445+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_clickhouse_dag.py took 0.832 seconds
+[2025-12-06T00:28:05.677+0000] {processor.py:186} INFO - Started process (PID=463) to work on /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:28:05.679+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_clickhouse_dag.py for tasks to queue
+[2025-12-06T00:28:05.682+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:28:05.682+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:28:06.551+0000] {processor.py:925} INFO - DAG(s) 'etl_customers_clickhouse' retrieved from /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:28:06.585+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:28:06.583+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-06T00:28:06.606+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:28:06.606+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_customers_clickhouse to None, run_after=None
+[2025-12-06T00:28:06.645+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_clickhouse_dag.py took 0.976 seconds
+[2025-12-06T00:28:37.088+0000] {processor.py:186} INFO - Started process (PID=469) to work on /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:28:37.090+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_clickhouse_dag.py for tasks to queue
+[2025-12-06T00:28:37.094+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:28:37.093+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:28:37.738+0000] {processor.py:925} INFO - DAG(s) 'etl_customers_clickhouse' retrieved from /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:28:37.767+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:28:37.766+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-06T00:28:37.785+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:28:37.785+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_customers_clickhouse to None, run_after=None
+[2025-12-06T00:28:37.821+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_clickhouse_dag.py took 0.742 seconds
+[2025-12-06T00:29:08.311+0000] {processor.py:186} INFO - Started process (PID=475) to work on /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:29:08.313+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_clickhouse_dag.py for tasks to queue
+[2025-12-06T00:29:08.317+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:29:08.317+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:29:08.944+0000] {processor.py:925} INFO - DAG(s) 'etl_customers_clickhouse' retrieved from /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:29:08.988+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:29:08.987+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-06T00:29:09.004+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:29:09.004+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_customers_clickhouse to None, run_after=None
+[2025-12-06T00:29:09.028+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_clickhouse_dag.py took 0.725 seconds
+[2025-12-06T00:29:39.500+0000] {processor.py:186} INFO - Started process (PID=481) to work on /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:29:39.502+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_clickhouse_dag.py for tasks to queue
+[2025-12-06T00:29:39.506+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:29:39.505+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:29:40.312+0000] {processor.py:925} INFO - DAG(s) 'etl_customers_clickhouse' retrieved from /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:29:40.353+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:29:40.351+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-06T00:29:40.378+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:29:40.378+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_customers_clickhouse to None, run_after=None
+[2025-12-06T00:29:40.408+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_clickhouse_dag.py took 0.917 seconds
+[2025-12-06T00:30:10.947+0000] {processor.py:186} INFO - Started process (PID=487) to work on /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:30:10.949+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_clickhouse_dag.py for tasks to queue
+[2025-12-06T00:30:10.952+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:30:10.952+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:30:11.570+0000] {processor.py:925} INFO - DAG(s) 'etl_customers_clickhouse' retrieved from /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:30:11.599+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:30:11.599+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-06T00:30:11.614+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:30:11.614+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_customers_clickhouse to None, run_after=None
+[2025-12-06T00:30:11.645+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_clickhouse_dag.py took 0.707 seconds
+[2025-12-06T00:30:42.159+0000] {processor.py:186} INFO - Started process (PID=493) to work on /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:30:42.162+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_clickhouse_dag.py for tasks to queue
+[2025-12-06T00:30:42.165+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:30:42.165+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:30:42.846+0000] {processor.py:925} INFO - DAG(s) 'etl_customers_clickhouse' retrieved from /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:30:42.874+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:30:42.874+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-06T00:30:42.889+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:30:42.889+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_customers_clickhouse to None, run_after=None
+[2025-12-06T00:30:42.914+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_clickhouse_dag.py took 0.764 seconds
+[2025-12-06T00:31:13.117+0000] {processor.py:186} INFO - Started process (PID=499) to work on /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:31:13.119+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_clickhouse_dag.py for tasks to queue
+[2025-12-06T00:31:13.122+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:31:13.122+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:31:13.719+0000] {processor.py:925} INFO - DAG(s) 'etl_customers_clickhouse' retrieved from /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:31:13.747+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:31:13.747+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-06T00:31:13.763+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:31:13.762+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_customers_clickhouse to None, run_after=None
+[2025-12-06T00:31:13.784+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_clickhouse_dag.py took 0.674 seconds
+[2025-12-06T00:31:44.212+0000] {processor.py:186} INFO - Started process (PID=505) to work on /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:31:44.214+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_clickhouse_dag.py for tasks to queue
+[2025-12-06T00:31:44.218+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:31:44.217+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:31:44.912+0000] {processor.py:925} INFO - DAG(s) 'etl_customers_clickhouse' retrieved from /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:31:44.946+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:31:44.945+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-06T00:31:44.962+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:31:44.962+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_customers_clickhouse to None, run_after=None
+[2025-12-06T00:31:45.006+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_clickhouse_dag.py took 0.802 seconds
+[2025-12-06T00:32:15.150+0000] {processor.py:186} INFO - Started process (PID=511) to work on /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:32:15.152+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_clickhouse_dag.py for tasks to queue
+[2025-12-06T00:32:15.156+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:32:15.156+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:32:15.776+0000] {processor.py:925} INFO - DAG(s) 'etl_customers_clickhouse' retrieved from /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:32:15.812+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:32:15.812+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-06T00:32:15.828+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:32:15.827+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_customers_clickhouse to None, run_after=None
+[2025-12-06T00:32:15.851+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_clickhouse_dag.py took 0.709 seconds
+[2025-12-06T00:32:45.957+0000] {processor.py:186} INFO - Started process (PID=517) to work on /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:32:45.959+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_clickhouse_dag.py for tasks to queue
+[2025-12-06T00:32:45.962+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:32:45.962+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:32:46.597+0000] {processor.py:925} INFO - DAG(s) 'etl_customers_clickhouse' retrieved from /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:32:46.624+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:32:46.623+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-06T00:32:46.640+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:32:46.640+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_customers_clickhouse to None, run_after=None
+[2025-12-06T00:32:46.673+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_clickhouse_dag.py took 0.723 seconds
+[2025-12-06T00:33:17.135+0000] {processor.py:186} INFO - Started process (PID=523) to work on /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:33:17.137+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_clickhouse_dag.py for tasks to queue
+[2025-12-06T00:33:17.141+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:33:17.140+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:33:17.854+0000] {processor.py:925} INFO - DAG(s) 'etl_customers_clickhouse' retrieved from /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:33:17.885+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:33:17.885+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-06T00:33:17.904+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:33:17.904+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_customers_clickhouse to None, run_after=None
+[2025-12-06T00:33:17.934+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_clickhouse_dag.py took 0.808 seconds
+[2025-12-06T00:33:48.299+0000] {processor.py:186} INFO - Started process (PID=529) to work on /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:33:48.301+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_clickhouse_dag.py for tasks to queue
+[2025-12-06T00:33:48.305+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:33:48.304+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:33:49.270+0000] {processor.py:925} INFO - DAG(s) 'etl_customers_clickhouse' retrieved from /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:33:49.306+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:33:49.305+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-06T00:33:49.335+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:33:49.335+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_customers_clickhouse to None, run_after=None
+[2025-12-06T00:33:49.368+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_clickhouse_dag.py took 1.080 seconds
+[2025-12-06T00:34:19.771+0000] {processor.py:186} INFO - Started process (PID=535) to work on /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:34:19.773+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_clickhouse_dag.py for tasks to queue
+[2025-12-06T00:34:19.778+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:34:19.778+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:34:20.528+0000] {processor.py:925} INFO - DAG(s) 'etl_customers_clickhouse' retrieved from /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:34:20.562+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:34:20.561+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-06T00:34:20.579+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:34:20.579+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_customers_clickhouse to None, run_after=None
+[2025-12-06T00:34:20.616+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_clickhouse_dag.py took 0.854 seconds
+[2025-12-06T00:34:51.137+0000] {processor.py:186} INFO - Started process (PID=541) to work on /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:34:51.138+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_clickhouse_dag.py for tasks to queue
+[2025-12-06T00:34:51.144+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:34:51.143+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:34:51.823+0000] {processor.py:925} INFO - DAG(s) 'etl_customers_clickhouse' retrieved from /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:34:51.855+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:34:51.854+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-06T00:34:51.875+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:34:51.874+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_customers_clickhouse to None, run_after=None
+[2025-12-06T00:34:51.909+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_clickhouse_dag.py took 0.780 seconds
+[2025-12-06T00:35:22.326+0000] {processor.py:186} INFO - Started process (PID=547) to work on /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:35:22.328+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_clickhouse_dag.py for tasks to queue
+[2025-12-06T00:35:22.332+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:35:22.332+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:35:23.036+0000] {processor.py:925} INFO - DAG(s) 'etl_customers_clickhouse' retrieved from /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:35:23.069+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:35:23.068+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-06T00:35:23.091+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:35:23.091+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_customers_clickhouse to None, run_after=None
+[2025-12-06T00:35:23.118+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_clickhouse_dag.py took 0.802 seconds
+[2025-12-06T00:35:53.474+0000] {processor.py:186} INFO - Started process (PID=553) to work on /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:35:53.475+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_clickhouse_dag.py for tasks to queue
+[2025-12-06T00:35:53.478+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:35:53.478+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:35:53.960+0000] {processor.py:925} INFO - DAG(s) 'etl_customers_clickhouse' retrieved from /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:35:53.984+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:35:53.983+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-06T00:35:53.995+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:35:53.995+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_customers_clickhouse to None, run_after=None
+[2025-12-06T00:35:54.020+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_clickhouse_dag.py took 0.552 seconds
+[2025-12-06T00:36:24.184+0000] {processor.py:186} INFO - Started process (PID=559) to work on /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:36:24.186+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_clickhouse_dag.py for tasks to queue
+[2025-12-06T00:36:24.190+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:36:24.190+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:36:24.798+0000] {processor.py:925} INFO - DAG(s) 'etl_customers_clickhouse' retrieved from /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:36:24.828+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:36:24.828+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-06T00:36:24.847+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:36:24.847+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_customers_clickhouse to None, run_after=None
+[2025-12-06T00:36:24.881+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_clickhouse_dag.py took 0.705 seconds
+[2025-12-06T00:36:55.351+0000] {processor.py:186} INFO - Started process (PID=565) to work on /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:36:55.353+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_clickhouse_dag.py for tasks to queue
+[2025-12-06T00:36:55.357+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:36:55.356+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:36:56.038+0000] {processor.py:925} INFO - DAG(s) 'etl_customers_clickhouse' retrieved from /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:36:56.073+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:36:56.072+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-06T00:36:56.089+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:36:56.088+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_customers_clickhouse to None, run_after=None
+[2025-12-06T00:36:56.115+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_clickhouse_dag.py took 0.775 seconds
+[2025-12-06T00:37:26.513+0000] {processor.py:186} INFO - Started process (PID=571) to work on /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:37:26.514+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_clickhouse_dag.py for tasks to queue
+[2025-12-06T00:37:26.518+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:37:26.518+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:37:27.156+0000] {processor.py:925} INFO - DAG(s) 'etl_customers_clickhouse' retrieved from /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:37:27.194+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:37:27.193+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-06T00:37:27.210+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:37:27.209+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_customers_clickhouse to None, run_after=None
+[2025-12-06T00:37:27.233+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_clickhouse_dag.py took 0.729 seconds
+[2025-12-06T00:37:57.644+0000] {processor.py:186} INFO - Started process (PID=577) to work on /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:37:57.646+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_clickhouse_dag.py for tasks to queue
+[2025-12-06T00:37:57.651+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:37:57.650+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:37:58.316+0000] {processor.py:925} INFO - DAG(s) 'etl_customers_clickhouse' retrieved from /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:37:58.347+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:37:58.346+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-06T00:37:58.366+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:37:58.366+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_customers_clickhouse to None, run_after=None
+[2025-12-06T00:37:58.390+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_clickhouse_dag.py took 0.758 seconds
+[2025-12-06T00:38:28.849+0000] {processor.py:186} INFO - Started process (PID=583) to work on /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:38:28.850+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_clickhouse_dag.py for tasks to queue
+[2025-12-06T00:38:28.854+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:38:28.854+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:38:29.493+0000] {processor.py:925} INFO - DAG(s) 'etl_customers_clickhouse' retrieved from /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:38:29.536+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:38:29.535+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-06T00:38:29.553+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:38:29.552+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_customers_clickhouse to None, run_after=None
+[2025-12-06T00:38:29.578+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_clickhouse_dag.py took 0.737 seconds
+[2025-12-06T00:39:00.054+0000] {processor.py:186} INFO - Started process (PID=589) to work on /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:39:00.055+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_clickhouse_dag.py for tasks to queue
+[2025-12-06T00:39:00.058+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:39:00.057+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:39:00.557+0000] {processor.py:925} INFO - DAG(s) 'etl_customers_clickhouse' retrieved from /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:39:00.576+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:39:00.575+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-06T00:39:00.587+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:39:00.587+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_customers_clickhouse to None, run_after=None
+[2025-12-06T00:39:00.622+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_clickhouse_dag.py took 0.576 seconds
+[2025-12-06T00:39:30.758+0000] {processor.py:186} INFO - Started process (PID=595) to work on /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:39:30.760+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_clickhouse_dag.py for tasks to queue
+[2025-12-06T00:39:30.764+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:39:30.763+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:39:31.448+0000] {processor.py:925} INFO - DAG(s) 'etl_customers_clickhouse' retrieved from /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:39:31.478+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:39:31.477+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-06T00:39:31.493+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:39:31.493+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_customers_clickhouse to None, run_after=None
+[2025-12-06T00:39:31.515+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_clickhouse_dag.py took 0.765 seconds
+[2025-12-06T00:40:01.934+0000] {processor.py:186} INFO - Started process (PID=601) to work on /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:40:01.936+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_clickhouse_dag.py for tasks to queue
+[2025-12-06T00:40:01.939+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:40:01.939+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:40:02.631+0000] {processor.py:925} INFO - DAG(s) 'etl_customers_clickhouse' retrieved from /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:40:02.659+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:40:02.658+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-06T00:40:02.674+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:40:02.674+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_customers_clickhouse to None, run_after=None
+[2025-12-06T00:40:02.706+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_clickhouse_dag.py took 0.781 seconds
+[2025-12-06T00:40:33.145+0000] {processor.py:186} INFO - Started process (PID=607) to work on /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:40:33.147+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_clickhouse_dag.py for tasks to queue
+[2025-12-06T00:40:33.150+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:40:33.150+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:40:33.806+0000] {processor.py:925} INFO - DAG(s) 'etl_customers_clickhouse' retrieved from /opt/airflow/dags/etl_clickhouse_dag.py
+[2025-12-06T00:40:33.837+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:40:33.836+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-06T00:40:33.853+0000] {logging_mixin.py:190} INFO - [2025-12-06T00:40:33.853+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_customers_clickhouse to None, run_after=None
+[2025-12-06T00:40:33.882+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_clickhouse_dag.py took 0.746 seconds
